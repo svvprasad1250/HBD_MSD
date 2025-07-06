@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./images/csk2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: #ddd;
+    font-weight: 600;
+    color: #8ecae6;
+}
+section {
+    padding: 25px 0px;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+.mahi1{
+    display: flex;
+    animation: scrollanim 15s linear infinite;
+    width: max-content;
+}
+.mahi1 img{
+    height: 220px;
+    width: 110px;
+    border: 2px solid #3e3e3e;
+    margin-right: 20px;
+}
+@keyframes scrollanim {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.hscroll{
+    overflow-x: hidden;
+    width:100%;
+}
+@media screen  and (max-width:310px){
+    h1{
+        font-size: 18px;
+    }
+}
