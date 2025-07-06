@@ -8,9 +8,8 @@ body{
     background-size: cover;
 }
 h1{
-    color: #ddd;
+    color: #c6d649;
     font-weight: 600;
-    color: #8ecae6;
 }
 section {
     padding: 25px 0px;
@@ -56,4 +55,18 @@ section {
     text-align: justify;
     padding: 0px;
     margin: 0px;
+}
+.mahi2 p{
+    color: #a7c5d0;
+    font-weight: 600;
+}
+video{
+    height: 100px;
+    width: 400px;
+}
+footer{
+    background-color: #3e3e3e;
+    padding: 20px;
+    color: #bdd1d8;
+    text-align: center;
 }
