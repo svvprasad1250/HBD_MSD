@@ -41,8 +41,19 @@ section {
     overflow-x: hidden;
     width:100%;
 }
-@media screen  and (max-width:310px){
+/* @media screen  and (max-width:310px){
     h1{
         font-size: 18px;
+        text-align: center;
     }
+    img{
+        height: 100vh;
+    }
+} */
+
+.mahi2{
+    color: #ddd;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
 }
